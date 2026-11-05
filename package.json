@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "vite build && node scripts/vercel-routes.mjs",
     "start": "node .output/server/index.mjs",
     "typecheck": "tsc --noEmit"
   },
