@@ -1,0 +1,9 @@
+node_modules
+dist
+.output
+.vercel
+.nitro
+.tanstack
+*.log
+*.local
+.DS_Store
