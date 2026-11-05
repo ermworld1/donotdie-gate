@@ -2,7 +2,7 @@
 // Everything else goes to the other two apps (see scripts/vercel-routes.mjs):
 //   /sea/*      → No Man's Sea (Vercel project market-seas)
 //   all else    → the land server on the droplet (map, /hype, /api/*, /_lg/*, bots)
-export const LAND_ORIGIN = (process.env.LAND_ORIGIN || "https://139-59-193-247.sslip.io").replace(/\/+$/, "");
+export const LAND_ORIGIN = (process.env.LAND_ORIGIN || "https://168-144-255-97.sslip.io").replace(/\/+$/, "");
 
 // Request headers worth passing to the land server when this app forwards a request.
 const PASS = ["accept", "accept-language", "user-agent", "referer", "x-forwarded-for", "x-real-ip"];

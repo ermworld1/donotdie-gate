@@ -10,7 +10,7 @@ if (!existsSync(file)) {
   console.log("[vercel-routes] no Vercel output, nothing to do");
   process.exit(0);
 }
-const LAND = (process.env.LAND_ORIGIN || "https://139-59-193-247.sslip.io").replace(/\/+$/, "");
+const LAND = (process.env.LAND_ORIGIN || "https://168-144-255-97.sslip.io").replace(/\/+$/, "");
 const SEA = (process.env.SEA_ORIGIN || "https://market-seas.vercel.app").replace(/\/+$/, "");
 
 const cfg = JSON.parse(readFileSync(file, "utf8"));
